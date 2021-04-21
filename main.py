@@ -41,11 +41,11 @@ else:
 # the pc now choose to play
 choose_pc = random.randint(0, 2)
 if choose_pc == 0:
-    print(f"Computer Choice: {list_of_game[0]}")
+    print(f"Computer Chose: {list_of_game[0]}")
 elif choose_pc == 1:
-    print(f"Computer Choice: {list_of_game[1]}")
+    print(f"Computer Chose: {list_of_game[1]}")
 else:
-    print(f"Computer Choice: {list_of_game[2]}")  
+    print(f"Computer Chose: {list_of_game[2]}")  
 # conditions to know who is the winner
 if user_choice == 0 and choose_pc == 0:
   print("TIE")
